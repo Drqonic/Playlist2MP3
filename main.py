@@ -19,10 +19,10 @@ def download_video(video):
 
 
 def main():
-  if len(sys.argv) < 2:
-      sys.exit(f"Usage: {sys.argv[0]} <Playlist URL>")
+	if len(sys.argv) < 2:
+		sys.exit(f"Usage: {sys.argv[0]} <Playlist URL>")
 
-  playlist_url = sys.argv[1]
+ 	playlist_url = sys.argv[1]
 
 	playlist = Playlist(playlist_url)
 
